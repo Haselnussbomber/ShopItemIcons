@@ -15,3 +15,7 @@ Supported windows:
 - **Exchange:** Calamity Salvager when exchanging old pigments for all-purpose pigments.
 
 The plugin has no configuration. It just works. Hopefully.
+
+Preview:
+
+<img width="572" height="492" alt="Preview" src="https://github.com/user-attachments/assets/f0ae4386-e02a-430d-bde9-489f78d6ee89" />
