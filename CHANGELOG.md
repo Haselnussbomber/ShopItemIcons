@@ -1,7 +1,7 @@
 # Changelog
 
-## [Unreleased]
+## [1.0.0] (2026-08-18)
 
 First release. 🥳
 
-[Unreleased]: https://github.com/Haselnussbomber/ShopItemIcons
+[1.0.0]: https://github.com/Haselnussbomber/ShopItemIcons
