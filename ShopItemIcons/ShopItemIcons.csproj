@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+  <!-- Project settings -->
+  <PropertyGroup>
+    <Name>Shop Item Icons</Name>
+    <Version>1.0.0</Version>
+    <Author>Haselnussbomber</Author>
+    <RepoUrl>https://github.com/Haselnussbomber/ShopItemIcons</RepoUrl>
+    <Punchline>Displays item icons instead of item category icons in shops.</Punchline>
+    <Description>Displays item icons instead of item category icons in shops.
+      
+Supported windows:
+
+- Shops: Simple merchants that sell items for Gil.
+- Item Exchange: Vendors that trade items for items, such as the Wolf Collar Exchange or Itinerant Moogles that exchange items for Irregular Tomestones during the Moogle Treasure Trove event.
+- Item Exchange (categorized): Splendors Vendors, the Scrip Exchange or the Wolf Mark Exchange.
+- Currency Exchange: Vendors that sell items for currency, such as all the societies vendors, or the Trophy Crystal Exchange.
+- Grand Company Seal Exchange: Quartermasters of Grand Companies.
+- Rewards: Vendors that provide job gear free of charge.
+- Exchange: Calamity Salvager when exchanging old pigments for all-purpose pigments.</Description>
+  </PropertyGroup>
+
+  <!-- Build settings -->
+  <PropertyGroup>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>$(DefineConstants);AUTOCTOR_EMBED_ATTRIBUTES</DefineConstants>
+  </PropertyGroup>
+
+  <!-- Assets -->
+  <ItemGroup>
+    <None Condition="'$(Configuration)' == 'Debug'" Include="Assets\Icon.png" Link="images\icon.png" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <!-- NuGet dependencies -->
+  <ItemGroup>
+    <PackageReference Include="AutoCtor" Version="3.1.1" PrivateAssets="all" ExcludeAssets="compile;runtime" />
+    <PackageReference Include="Roslynator.Analyzers" Version="4.15.0" PrivateAssets="all" />
+  </ItemGroup>
+</Project>
