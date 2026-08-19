@@ -1,6 +1,6 @@
 <img align="left" src="ShopItemIcons/Assets/Icon.png" width="60px" height="60px" alt="Shop Item Icons"/>
 
-**Shop Item Icons** is a small plugin to display item icons instead of item category icons in shops.<br/>
+**Shop Item Icons** is a lightweight plugin to display item icons instead of item category icons in shops.<br/>
 <br/>
 <hr>
 
